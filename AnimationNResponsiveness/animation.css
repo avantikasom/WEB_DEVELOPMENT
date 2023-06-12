@@ -1,0 +1,44 @@
+.container{
+    height: 500px;
+    width:100%;
+    height:203px;
+    background-color: blue;
+    border:3px solid blue;
+
+}
+
+.box{
+    background-color: aqua;
+    border:2px solid black;
+    height:200px;
+    width:200px;
+    animation-name:avantika;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: 4;
+    animation-timing-function: linear;
+}
+
+@keyframes avantika{
+    0%{
+        width:200px;
+        background-color:orange;
+    }
+    50%{
+        width:50%;
+        background-color:white;
+    }
+    100%{
+        width:100%;
+        background-color:green;
+    }
+}
+
+/* @keyframes avantika{
+    from{
+        width:200px;
+    }
+    to{
+        width:850px;    
+    }
+} */

@@ -1,0 +1,31 @@
+.box{
+    border : 1px solid black;
+    background-color:aqua;
+    margin:300px;
+    background-color: aquamarine;
+    /*rotate the div element*/
+    /*clockwise*/
+    transform: rotate(45deg);
+    /*anticlockwise*/
+    transform: rotate(-45deg);
+
+    /*scalaing*/
+    transform:scaleY(3);
+
+    /*Skewing*/
+    transform:skew(135deg);
+}
+
+    div{
+        height:200px;
+        width:200px;
+        border:1px solid black;
+        background-color:blue;
+    }
+    .translated{
+        transform:perspective(10px) translateZ(-10px);
+    }
+    .scaled{
+        transform:perspective(10px) scaleZ(2) rotateX(45deg) rotateY(30deg);
+    }
+

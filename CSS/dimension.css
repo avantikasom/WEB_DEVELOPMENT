@@ -1,0 +1,28 @@
+body{
+background-color: bisque;
+}
+.box{
+    max-height: 100px;
+    border : solid black 1px;
+    overflow: scroll;
+    background-color: aqua;
+}
+
+.mydiv{
+    min-height: 100px;
+    border : solid black 1px;
+    margin:10px;
+    background-color: palevioletred ;
+}
+
+
+.divi{
+    height:50px;
+    border:solid black 2px;
+    /* overflow:visible; */
+    /* overflow:hidden; */
+    /* overflow:scroll; */
+    overflow:auto;
+    background-color: yellowgreen;
+}
+

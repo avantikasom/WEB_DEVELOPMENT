@@ -1,0 +1,28 @@
+.container{
+    background-color:red;
+    border: 3px solid black;
+    height:500px;
+    width:400px;
+    display:flex;
+}
+
+.box{
+    background-color:aqua;
+    border:2px solid black;
+    height:200px;
+    width:200px;
+    margin:20px;
+    
+    /* transition:0.2s;
+    transition-property:all;
+    It is not a good practice */
+    transition: transform 3s ease 1s;
+    
+}
+.box:hover{
+     background-color:brown; 
+    transform:scale(2,2); 
+    transform:scale(2) translateX(501px) rotate(360deg);
+    
+
+}

@@ -1,0 +1,19 @@
+h1{
+    text-shadow: 3px 3px pink;
+}
+
+.box{
+    height:200px;
+    width:200px;
+    background-color:  aqua;
+    border:1px solid black;
+    /*By-default*/
+    box-shadow: 5px 5px ;
+    /*Add blur*/
+    box-shadow: 5px 5px 5px;
+    /*change the defalut color of box-shadow*/
+    box-shadow:5px 5px 5px red;
+    /*by uisng negative value we can change the directon of shadows*/
+    box-shadow:-5px -5px 5px red, 15px 15px 5px green;
+
+}

@@ -1,0 +1,16 @@
+:root{
+    --purple:#985ce6; /*the scope of variable is globe*/
+}
+.container{
+    background-color:red;
+    border:1px solid brown;
+    height:300px;
+    width:300px;
+    background-color:var(--purple);
+}
+.box{
+    background-color:aqua;
+    border:1px solid black;
+    --purple:#985ce6;/*the scope of variable is local*/
+    color:var(--purple);
+}

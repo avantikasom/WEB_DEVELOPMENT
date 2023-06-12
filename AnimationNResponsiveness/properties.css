@@ -1,0 +1,39 @@
+.container{
+    height:700px;
+    width:600px;
+    border:1px solid black;
+    background-color:yellow;
+    display:grid;
+    grid-gap:10px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+
+    /* justify-content:start;
+    justify-content:end; */
+/* align-items:start;
+align-items:end;
+align-items:baseline;
+align-items:stretch by-default property */
+
+/* justify-content:center;
+align-content:center; */
+/*shorthand property of justify-content and align-content*/
+place-content: center;
+
+
+}
+
+.box{
+    background-color:aqua;
+    border: 1px solid red;
+    /* width:100px;
+    height:100px; */
+}
+/*
+
+#box1{ align-self:center;
+    align item along cross axis
+    justify-self:center;
+     /* align item along main axis */
+
+/* } */

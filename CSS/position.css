@@ -1,0 +1,43 @@
+/* p{
+    position:static;     static position
+} */
+body{
+    background-color:bisque
+    
+}
+.wrapper{
+    height: 10000px;
+    width:100vw;
+    background-color:yellow;
+}
+div{
+    height:200px;
+    width:200px;
+    background-color: crimson;
+    border:1px solid black;
+    display: inline-block;
+}
+/* #box2{
+    position:relative;
+    top:50px;
+    left:50px;
+} */
+
+/* #box3{
+    position:fixed;
+    top:100px;
+    left:500px;
+    
+} */
+ #box1{
+    position:sticky;
+    top:100px;
+    left:500px;
+
+
+} 
+/* #box3{
+    position:absolute;
+    top:100px;
+    left:50px;
+} */
